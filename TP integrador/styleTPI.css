@@ -1,0 +1,171 @@
+
+/* Navbar */
+#codoacodoimg{
+    height: 10%;
+    width: 10%;
+}
+    #codoacodoimg:hover{
+        transform: scale(1.3) ;
+        transition: ease-out .5s;
+    }
+#navbarSupportedContent{
+    margin-left: 20%;
+}
+#nav_boton_comprar{
+    color:green;
+}
+.container-fluid{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+/* Carrousel */
+#palacio{
+    opacity: 40%;
+}
+.carousel-item{
+    background-color: black;
+}
+#carrousel-caption{
+    text-align: end;
+    width: 40%;
+    position: absolute;
+    top: 45%;
+    bottom: 15%;
+    left: 55%;
+}
+
+
+/* Cards */
+#section_cards{
+    padding-top: 1%;
+    padding-left: 17%;
+    padding-right: 17%;
+    padding-bottom: 2%;
+}
+#encabezado_cards{
+    text-align: center;
+}
+    #conoce{
+        margin-bottom: 0%;
+        font-size: 2vh;
+    }
+    #oradores{
+        font-size: 5vh;
+    }
+.card-text{
+    font-size: 2vh;
+}
+.card-img-top{
+    height: 100%;
+}
+.badge{
+    padding:0.5vh;
+}
+
+/* Bs As - Octubre */
+#bsasoctubresection{
+    display:flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    background-color:#434343;
+
+}
+    .BsAsOctubreImg{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-right: 0.15vh solid white;
+
+    }
+    .BsAsOctubreDiv{
+        padding: 3vh;
+        width: 100%;
+        height: 100%;
+        color:white;
+        font-size: 2vh;
+        line-height: 3vh;
+
+    }
+    .BsAsOctubreDiv button{
+        padding: 0.75vh;
+        font-size: 2vh;
+        margin-top: 2vh;
+
+    }
+
+/* Form */
+#formSection{
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+    justify-content: center;
+    display: flex;
+}   
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+        #div_encabezadoForm{
+            flex-flow: column;
+            text-align: center;
+        }
+        p a{
+            text-decoration-style: dotted;
+            color: black;
+        }
+        form div{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        div input{
+            width: 48%;
+            border: 0.1vh solid lightgrey;
+            border-radius: 0.5vh;
+            margin-top: 2vh;
+            margin-bottom: 2vh;
+        }
+        [name=apellido]{
+            display: flex;
+        }
+        textarea{
+            font-size: 3vh;
+            border: 0.1vh solid lightgrey;
+            border-radius: 0.5vh;
+        }
+        form span{
+            color: gray;
+            font-size: 2vh;
+        }
+        #Boton_submit{
+            margin-top: 2vh;
+            color: white;
+            padding: 1vh 0 1vh 0;
+            background-color:mediumseagreen;
+            border:none;
+            border-radius: 0.75vh;
+        }
+        ::placeholder{
+            padding: 1vh 1vh 1vh 1vh;
+        }
+
+/* Footer */
+
+footer{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    width: 100%;
+    align-content: center;
+    background-color: darkslategrey;
+    padding: 2.5% 10% 2.5% 10%;
+
+}
+    footer a{
+        color: white;
+        width: min-content;
+        text-align: center;
+    }
+
