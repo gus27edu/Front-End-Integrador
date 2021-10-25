@@ -20,6 +20,7 @@
 
 
     <title>Comprar tickets page</title>
+    <script lang="JavaScript" src="script.js"></script>
 
 
 </head>
@@ -108,7 +109,7 @@
     <!-- Form -->
     <section class="formSection" id="Ticketform">
         
-        <form action="direccionArchivo" method="POST" >
+        <form id="formtickets" action="direccionArchivo" method="POST" >
 
             <div id="div_encabezadoForm">
                 <p id="conoce">VENTA</p>
@@ -127,7 +128,7 @@
                     <label for="cantidad" class="formTicketEncabezados">Cantidad</label>
                 </div>
                 <div>
-                    <label id="categoria" for="categoria" class="formTicketEncabezados">Categoria</label>
+                    <label for="categoria" class="formTicketEncabezados">Categoria</label>
                 </div>
             </div>
             <!-- Para hacer el calculo con JavaScript -->
@@ -135,17 +136,17 @@
                 <input id="cantidad" name="cantidad" type="number" min="1" placeholder="Cantidad" required>
 
                 <!-- aria-label=".form-select-sm example" -->
-                <select name="categoria" id="categoria" > 
+                <select id="categoria" > 
                     <option value="1">Estudiante</option>
                     <option value="2">Trainee</option>
                     <option value="3">Junior</option>
-                  </select>
+                </select>
             </div>
             <input type="text" id="total" placeholder="  Total a Pagar: $ ">
 
             <div id="div_botones_submit">
-                <button class="borrar" value="Borrar" id="Boton_Borrar">Borrar</button>
-                <button class="resumen" value="Resumen" id="Boton_Resumen" onclick="calculo();">Resumen</button>
+                <button type="button" class="borrar" value="Borrar" id="Boton_Borrar" onclick="limpiar();">Borrar</button>
+                <button type="button" class="resumen"  id="Boton_Resumen" onclick="calculo();">Resumen</button>
             </div>
             
 

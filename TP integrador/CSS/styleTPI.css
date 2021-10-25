@@ -232,18 +232,14 @@ form div select{
 
 }
 button{
-    height: 5vh;
-    width: 5vh;
-    display: flex;
-
-}
-#Boton_Borrar{
+    width: 49%;
     margin-top: 2vh;
     color: white;
     padding: 1vh 0 1vh 0;
     background-color:mediumseagreen;
     border:none;
     border-radius: 0.75vh;
+
 }
     #categoria{
         margin-left: 2vh;
